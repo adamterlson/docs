@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Omnichannel Transacting Team API",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -27,8 +27,12 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "teams",
+      "url": "teams"
+    },
+    {
+      "name": "balcony",
+      "url": "balcony"
     }
   ],
   "anchors": [
@@ -50,42 +54,35 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Identity",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "identity/overview",
+        "identity/management"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Publications",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "publications/list",
+        "publications/create"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Stakeholders",
       "pages": [
-        "api-reference/introduction"
+        "stakeholders/overview",
+        "stakeholders/roles"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Metrics",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "metrics/dashboard",
+        "metrics/reports"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/adamterlson/teamapi"
   }
 }
