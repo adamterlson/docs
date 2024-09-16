@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Omnichannel Transacting Team API",
+  "name": "Starter Kit",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -22,50 +22,71 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Register Team API",
+    "url": "https://teamapi.ai/register"
   },
   "tabs": [
     {
-      "name": "teams",
-      "url": "teams"
+      "name": "Topology",
+      "url": "https://teamapi.ai/topology"
     },
     {
-      "name": "balcony",
-      "url": "balcony"
+      "name": "Activity",
+      "url": "https://teamapi.ai/activity"
+    },
+    {
+      "name": "Leader Chat",
+      "url": "https://teamapi.ai/chat"
     }
   ],
   "navigation": [
     {
-      "group": "Identity",
+      "group": "Overview",
+      "pages": ["quickstart"]
+    },
+    {
+      "group": "Team Identity",
       "pages": [
-        "identity/overview",
-        "identity/management"
+        "identity/north_star",
+        "identity/values",
+        "identity/standards"
       ]
     },
     {
-      "group": "Publications",
+      "group": "Performance",
       "pages": [
-        "publications/list",
-        "publications/create"
+        "Key Performance Indicators",
+        "Data Measurements"
       ]
     },
     {
-      "group": "Stakeholders",
+      "group": "Team Structure",
       "pages": [
-        "stakeholders/overview",
-        "stakeholders/roles"
+        "Roles",
+        "Responsibilities"
       ]
     },
     {
-      "group": "Metrics",
+      "group": "Products",
       "pages": [
-        "metrics/dashboard",
-        "metrics/reports"
+        "Code repositories",
+        "Applications",
+        "Services",
+        "Libraries",
+        "Frameworks",
+        "Components"
+      ]
+    },
+    {
+      "group": "Continuous Improvement",
+      "pages": [
+        "Retrospectives"
       ]
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/adamterlson/teamapi"
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
