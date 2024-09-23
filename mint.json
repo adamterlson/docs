@@ -42,45 +42,68 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["quickstart"]
+      "pages": [
+        "quickstart"
+      ]
     },
     {
-      "group": "Team Identity",
+      "group": "Identity",
       "pages": [
         "identity/north_star",
         "identity/values",
-        "identity/standards"
+        "identity/standards",
+        "identity/diversity_and_inclusion",
+        "identity/wellbeing"
       ]
     },
     {
-      "group": "Performance",
+      "group": "Network",
+      "pages": [
+        "networking/communication_channels",
+        "networking/external_stakeholders",
+        "networking/cross_team_collaborations",
+        "networking/community_engagement",
+        "networking/vendors",
+        "networking/events_and_conferences"
+      ]
+    },    
+    {
+      "group": "Production",
+      "pages": [
+        "production/code_repositories",
+        "production/applications",
+        "production/services",
+        "production/libraries",
+        "Frameworks",
+        "Components",
+        "Tooling",
+        "Documentation"
+      ]
+    },
+    {
+      "group": "Contributors",
+      "pages": [
+        "Humans",
+        "Roles & Responsibilities",
+        "Recognition & Achievements"
+      ]
+    },
+    {
+      "group": "Observability",
       "pages": [
         "Key Performance Indicators",
-        "Data Measurements"
+        "Retrospectives",
+        "Stakeholder Feedback"
       ]
     },
     {
-      "group": "Team Structure",
+      "group": "Operations",
       "pages": [
-        "Roles",
-        "Responsibilities"
-      ]
-    },
-    {
-      "group": "Products",
-      "pages": [
-        "Code repositories",
-        "Applications",
-        "Services",
-        "Libraries",
-        "Frameworks",
-        "Components"
-      ]
-    },
-    {
-      "group": "Continuous Improvement",
-      "pages": [
-        "Retrospectives"
+        "Routines",
+        "Budget",
+        "Processes",
+        "Risk Management",
+        "Escalation Paths"
       ]
     }
   ],

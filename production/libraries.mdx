@@ -1,0 +1,67 @@
+---
+title: Libraries
+description: 'A reference for the libraries used by the team, including access details, usage guidelines, and integration instructions.'
+---
+
+## Libraries
+
+Our team consumes several key libraries maintained by other teams or external organizations. These libraries provide reusable code components, utility functions, and common patterns across different applications and services.
+
+### 1. UI Components Library
+**Author**: Front-End Platform Team  
+**Repository**: [UI Components Library](https://github.com/frontend-team/ui-components-library)  
+**Description**: A React Native library containing reusable UI components such as buttons, modals, form elements, and navigation elements used across the self-checkout app.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Install the library:  
+  `npm install @bestbuy/ui-components-library`  
+- Import components in your app:  
+  `import { Button, Modal } from '@bestbuy/ui-components-library';`  
+**Documentation**: [UI Components Documentation](https://github.com/frontend-team/ui-components-library/wiki)
+
+### 2. State Management Library
+**Author**: Mobile Engineering Team  
+**Repository**: [State Management Library](https://github.com/mobile-team/state-management-library)  
+**Description**: A library built to manage complex application state across the mobile app, ensuring consistency and reliability in handling user data, cart information, and transactions.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Install the library:  
+  `npm install @bestbuy/state-management`  
+- Usage example:  
+  `import { useAppState } from '@bestbuy/state-management';`  
+  `const { cart, user } = useAppState();`  
+**Documentation**: [State Management Library Documentation](https://github.com/mobile-team/state-management-library/wiki)
+
+### 3. API Client Library
+**Author**: API Services Team  
+**Repository**: [API Client Library](https://github.com/api-team/api-client-library)  
+**Description**: A JavaScript/TypeScript library that simplifies interactions with the backend services and APIs, providing methods for secure authentication and handling data requests from the Best Buy API.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Install the library:  
+  `npm install @bestbuy/api-client`  
+- Usage example:  
+  `import { getProductDetails } from '@bestbuy/api-client';`  
+  `const productDetails = await getProductDetails(productId);`  
+**Documentation**: [API Client Documentation](https://github.com/api-team/api-client-library/wiki)
+
+### 4. Analytics Library
+**Author**: Data Analytics Team  
+**Repository**: [Analytics Library](https://github.com/analytics-team/analytics-library)  
+**Description**: This library integrates analytics and event tracking into the mobile application, sending data on user interactions, session tracking, and transaction events to analytics platforms.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Install the library:  
+  `npm install @bestbuy/analytics`  
+- Usage example:  
+  `import { trackEvent } from '@bestbuy/analytics';`  
+  `trackEvent('Transaction Completed', { transactionId });`  
+**Documentation**: [Analytics Documentation](https://github.com/analytics-team/analytics-library/wiki)
+
+### Access Information
+
+For access to any of these libraries, request permissions via GitHub or contact the repository admin listed in each section.
+
+### Support
+
+For support with library integration, usage, or troubleshooting, contact the [Support Team](mailto:support@bestbuy.com) or join the Slack channel `#libraries-support` for assistance.

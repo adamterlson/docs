@@ -1,0 +1,49 @@
+---
+title: Services
+description: 'A reference for the core backend services that power the self-checkout experience, including links to production URLs, documentation, and integration details.'
+---
+
+## Services
+
+Our team manages several backend services that support the self-checkout system, including transaction orchestration, data APIs, and fraud detection. Below are links to the core services, details on how to access them, and integration instructions.
+
+### 1. **Transaction Orchestration Service**
+**Platform**: NodeJS Finite State Machine  
+**Description**: This service handles the orchestration of retail transactions for the self-checkout experience, ensuring the smooth flow of each transaction through various states. It's a zero-trust service ensuring high security and compliance.  
+**Production URL**: [Transaction Orchestration Endpoint](https://api.bestbuy.com/transactions)  
+**Access**: Managed through the Azure console. Request access from the engineering team via **[orchestration-access@bestbuy.com](mailto:orchestration-access@bestbuy.com)**.  
+**Documentation**: [Orchestration Service Documentation](https://github.com/team/transaction-orchestration/wiki)  
+**Azure Management**: Direct access and control through the Azure Portal.  
+**Security**: Zero trust architecture; request specific access keys for service interaction.
+
+### 2. **Retail Graph Services (Federated GraphQL Service)**
+**Platform**: GraphQL  
+**Description**: Retail Graph Services provide federated GraphQL APIs that deliver product, pricing, and inventory data to the front-end applications. This service is crucial for ensuring that the front-end apps can retrieve and display up-to-date information for customers.  
+**Production URL**: [GraphQL Endpoint](https://api.bestbuy.com/graphql)  
+**Access**: Managed via the Azure console. Request access keys or credentials from **[retail-graph-access@bestbuy.com](mailto:retail-graph-access@bestbuy.com)**.  
+**Documentation**: [GraphQL Service Documentation](https://github.com/team/retail-graph-services/wiki)  
+**GraphQL Playground**: [GraphQL Playground](https://playground.bestbuy.com/graphql) for testing queries.
+
+### 3. **Backend API Service**
+**Platform**: Cloud-based  
+**Description**: This service powers the backend for the self-checkout application, handling product information, pricing, inventory, and transaction processing.  
+**Production URL**: [API Production Endpoint](https://api.bestbuy.com/checkout)  
+**Access**: Contact the **API Team** at **[api-access@bestbuy.com](mailto:api-access@bestbuy.com)** to request API keys and production access.  
+**Documentation**: [API Documentation](https://developer.bestbuy.com)  
+**Sandbox Environment**: [API Sandbox](https://sandbox-api.bestbuy.com/checkout)  
+
+### 4. **Fraud Detection Service**
+**Platform**: Forter-integrated Cloud Service  
+**Description**: This application integrates with Forter to check transactions for fraud before finalizing the payment.  
+**Production URL**: [Fraud Detection Endpoint](https://api.forter.com/fraud-check)  
+**Access**: To integrate with this service, request API keys from **[fraud-support@forter.com](mailto:fraud-support@forter.com)**.  
+**Documentation**: [Forter Integration Guide](https://www.forter.com/docs)  
+**API Documentation**: [Forter API](https://www.forter.com/api)
+
+### Access Information
+
+For access to any of these services, please contact the relevant team via the email addresses provided or follow the documentation links to request access keys or credentials.
+
+### Support
+
+For assistance with service access, integration, or troubleshooting, contact the **[Support Team](mailto:support@bestbuy.com)** or use the **Slack channel `#service-support`** for immediate help.

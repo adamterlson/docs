@@ -1,0 +1,55 @@
+---
+title: Code Repositories
+description: 'A central reference for all key code repositories, including access details and integration points for the self-checkout experience.'
+---
+
+## Code Repositories
+
+Our self-checkout system relies on multiple code repositories, each serving a different function within the stack. Below are links to the repositories, instructions for access, and integration guidelines.
+
+### 1. **Mobile Application Repository**  
+**Repository**: [React Native App Repository](https://github.com/team/mobile-app)  
+**Description**: This repository contains the source code for the self-checkout mobile application built in React Native.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Clone the repository: `git clone https://github.com/team/mobile-app.git`  
+- Install dependencies: `npm install`  
+- Start development server: `npm start`  
+**Production URL**: [App Store Link](https://apps.apple.com/bestbuy-selfcheckout) | [Google Play Link](https://play.google.com/bestbuy-selfcheckout)  
+
+### 2. **Backend API Repository**  
+**Repository**: [Backend API Repository](https://github.com/team/backend-api)  
+**Description**: This repository manages the API that connects the mobile app with Best Buy’s services, including product availability, pricing, and customer details.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Clone the repository: `git clone https://github.com/team/backend-api.git`  
+- Set up environment variables according to the README  
+- Start the server using: `npm run start`  
+**Production URL**: [Best Buy API Documentation](https://developer.bestbuy.com)  
+
+### 3. **Fraud Detection Service (Forter Integration)**  
+**Repository**: [Fraud Detection Service Repository](https://github.com/team/fraud-detection)  
+**Description**: This repository contains the service that integrates with Forter for fraud detection on transactions.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Clone the repository: `git clone https://github.com/team/fraud-detection.git`  
+- Configure Forter API keys as per the README  
+- Start the service: `npm run start`  
+**Documentation**: [Forter API Documentation](https://www.forter.com/api)
+
+### 4. **CI/CD Pipeline Configuration**  
+**Repository**: [CI/CD Pipeline Repository](https://github.com/team/ci-cd-pipeline)  
+**Description**: This repository includes the configurations for automated testing, build, and deployment pipelines for the mobile app and services.  
+**Access**: Request access via GitHub, or contact the repository admin for permissions.  
+**Integration**:  
+- Clone the repository: `git clone https://github.com/team/ci-cd-pipeline.git`  
+- Customize pipelines for specific environments in the `.yml` files  
+- Trigger builds using the Jenkins server or GitHub Actions.  
+
+### Access Information
+
+For access to any of these repositories, contact **[email@example.com](mailto:email@example.com)** with your GitHub username. Ensure you have the appropriate permissions for read/write access to the repositories.
+
+### Support
+
+For assistance or further integration support, visit the [Support Page](https://support.bestbuy.com), or reach out to the engineering team on **Slack** via the `#engineering-support` channel.
